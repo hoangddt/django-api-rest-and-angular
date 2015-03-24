@@ -1,6 +1,7 @@
 Django>=1.7
 djangorestframework<3.0
 pillow
+django-rest-swagger
 
 # Optional
 Werkzeug
