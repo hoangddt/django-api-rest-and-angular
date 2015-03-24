@@ -5,6 +5,11 @@ This sample project is the companion of a [blog post](http://kevinastone.github.
 ## Dependencies
 
 To setup and run the sample code, you're going to need `npm` from NodeJS available to install the frontend code.
+    apt-get install python-software-properties
+	apt-add-repository ppa:chris-lea/node.js
+	apt-get update
+	apt-get install nodejs
+	apt-get install npm
 
 ## Setup
 
