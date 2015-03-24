@@ -26,6 +26,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^(?P<template_name>\w+)$', SimpleStaticView.as_view(), name='example'),
     url(r'^$', TemplateView.as_view(template_name='index.html')),
+    url(r'^docs/', include('rest_framework_swagger.urls')),
 )
 
 if settings.DEBUG:
